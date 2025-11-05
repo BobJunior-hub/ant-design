@@ -3,7 +3,7 @@ import { Button, Flex } from 'antd';
 
 const Demo: React.FC = () => (
   <Flex wrap gap="small">
-    {Array.from({ length: 24 }, (_, i) => (
+    {Array.from({ length: 12 }, (_, i) => (
       <Button key={i} type="primary">
         Button
       </Button>
